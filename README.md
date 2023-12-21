@@ -56,4 +56,6 @@ _Exemple 3:_
 
 - Paramètre d'entrée: x = 10
 - Réponse: false
-- Explication: Se lit 01 de droite à gauche. Ce n'est donc pas un palindrome. 
+- Explication: Se lit 01 de droite à gauche. Ce n'est donc pas un palindrome.
+
+> Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/palindrome.js)https://github.com/leiluspocus/katas/blob/main/palindrome.js
