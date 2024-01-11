@@ -34,6 +34,8 @@ Exemple
 > "Pas de majorité"
 ```
  
+> Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/majority.js)
+> 
 ## 🤹‍♀️ Palindrome
 
 [Source: LeetCode](https://leetcode.com/problems/palindrome-number/) 
@@ -58,4 +60,4 @@ _Exemple 3:_
 - Réponse: false
 - Explication: Se lit 01 de droite à gauche. Ce n'est donc pas un palindrome.
 
-> Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/palindrome.js)https://github.com/leiluspocus/katas/blob/main/palindrome.js
+> Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/palindrome.js) 
