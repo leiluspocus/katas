@@ -36,7 +36,7 @@ Exemple
  
 ## 🤹‍♀️ Palindrome
 
-[Source: LeetCode](https://leetcode.com/problems/palindrome-number/)https://leetcode.com/problems/palindrome-number/
+[Source: LeetCode](https://leetcode.com/problems/palindrome-number/) 
 
 Faites une fonction qui prend en paramètre un entier x. La fonction doit retourner `true` si x est un palindrome, `false` sinon.  
 
