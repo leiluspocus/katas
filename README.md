@@ -60,4 +60,34 @@ _Exemple 3:_
 - Réponse: false
 - Explication: Se lit 01 de droite à gauche. Ce n'est donc pas un palindrome.
 
-> Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/palindrome.js) 
+> Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/palindrome.js)
+
+## 🔂 Inverser
+
+[Source: Newsletter de Cassidoo du 15/01](https://buttondown.email/cassidoo/archive/try-and-fail-but-dont-fail-to-try-john-quincy/)
+
+A partir d'un tableau à deux dimensions,  écrire une fonction qui l'inverse horizontalement ou verticalement.
+
+_Exemple_
+
+Pour ce tableau: 
+
+```js
+let array = [
+[1,2,3],
+[4,5,6],
+[7,8,9]
+]
+```
+
+En mode "horizontal", on obtient 
+```js
+> flip(array, 'horizontal')
+> [[3,2,1],[6,5,4],[9,8,7]]
+```
+
+Tandis qu'en mode "vertical", on obtient
+```js
+> flip(array, 'vertical')
+> [[7,8,9],[4,5,6],[1,2,3]]
+```
