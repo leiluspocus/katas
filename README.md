@@ -9,7 +9,13 @@ C'est un petit exercice de programmation qui est souvent donné en entretien.
 
 Il peut aussi être utilisé tout au long de sa carrière pour muscler ses compétences en algorithmie ou en programmation de manière plus large ! 
 
+**Liste des katas** 
+- [♣️ Majorité, pairs ou impair ?](#majorite-pairs-impairs)
+- [🤹‍♀️ Palindrome](#palindrome)
+- [🔂 Inverser](#inverser)
+- [🧮 Tri dans un tableau](#tri)
 
+<a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
 
 [Source: Newsletter de Cassidoo 
@@ -35,7 +41,9 @@ Exemple
 ```
  
 > Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/majority.js)
-> 
+
+
+<a id="palindrome"></a>
 ## 🤹‍♀️ Palindrome
 
 [Source: LeetCode](https://leetcode.com/problems/palindrome-number/) 
@@ -62,6 +70,8 @@ _Exemple 3:_
 
 > Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/palindrome.js)
 
+
+<a id="inverser"></a>
 ## 🔂 Inverser
 
 [Source: Newsletter de Cassidoo du 15/01](https://buttondown.email/cassidoo/archive/try-and-fail-but-dont-fail-to-try-john-quincy/)
@@ -92,6 +102,7 @@ Tandis qu'en mode "vertical", on obtient
 > [[7,8,9],[4,5,6],[1,2,3]]
 ```
 
+<a id="tri"></a>
 ## 🧮 Tri dans un tableau 
 [Source: Newsletter de Cassidoo du 3/06](https://buttondown.email/cassidoo/archive/the-cure-to-boredom-is-curiosity-there-is-no-cure/)
 
