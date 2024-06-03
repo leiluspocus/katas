@@ -91,3 +91,21 @@ Tandis qu'en mode "vertical", on obtient
 > flip(array, 'vertical')
 > [[7,8,9],[4,5,6],[1,2,3]]
 ```
+
+## 🧮 Tri dans un tableau 
+[Source: Newsletter de Cassidoo du 3/06](https://buttondown.email/cassidoo/archive/the-cure-to-boredom-is-curiosity-there-is-no-cure/)
+
+Ecris une fonction qui prend en paramètre un tableau d'entiers. 
+Elle doit retourner un nouveau tableau contenant seulement les entiers pairs _(du tableau donné en paramètre)_ et triés ar ordre croissant. 
+
+_Exemple_
+```shell
+> onlyEvens([1, 2, 3, 4, 5, 2])
+> [2, 2, 4]
+
+> onlyEvens([7, 8, 1, 0, 2, 5])
+> [0, 2, 8]
+
+> onlyEvens([11, 13, 15])
+> []
+```
