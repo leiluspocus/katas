@@ -5,9 +5,7 @@ Ce repository liste des katas en français.
 La source originelle du kata est indiquée, seul un effort de traduction en français a été fait!
 
 ❓ **C'est quoi un kata ?**
-C'est un petit exercice de programmation qui est souvent donné en entretien. 
-
-Il peut aussi être utilisé tout au long de sa carrière pour muscler ses compétences en algorithmie ou en programmation de manière plus large ! 
+C'est un petit exercice de programmation qui est souvent donné en entretien. Il peut aussi être utilisé tout au long de sa carrière pour muscler ses compétences en algorithmie ou en programmation de manière plus large ! 
 
 **Liste des katas** 
 - [♣️ Majorité, pairs ou impair ?](#majorite-pairs-impairs)
