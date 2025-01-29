@@ -105,7 +105,7 @@ Tandis qu'en mode "vertical", on obtient
 [Source: Newsletter de Cassidoo du 3/06](https://buttondown.email/cassidoo/archive/the-cure-to-boredom-is-curiosity-there-is-no-cure/)
 
 Ecris une fonction qui prend en paramètre un tableau d'entiers. 
-Elle doit retourner un nouveau tableau contenant seulement les entiers pairs _(du tableau donné en paramètre)_ et triés ar ordre croissant. 
+Elle doit retourner un nouveau tableau contenant seulement les entiers pairs _(du tableau donné en paramètre)_ et triés par ordre croissant. 
 
 _Exemple_
 ```shell
