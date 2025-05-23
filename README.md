@@ -118,3 +118,24 @@ _Exemple_
 > onlyEvens([11, 13, 15])
 > []
 ```
+
+
+<a id="imprimanteFolle"></a>
+## 🖨️ L'imprimante folle
+[Source: Newsletter de Cassidoo du 2/12/2024](https://buttondown.com/cassidoo/archive/how-beautiful-it-is-to-get-up-and-go-do-something/)
+
+Le Père Noël fait l'appel quotidien de ses rennes, mais l'imprimante a imprimé tous leurs noms à l'envers par erreur 😱
+
+Pour prendre les présences correctement, il a besoin d'urgence d'un outil permettant d'inverser les noms des rennes et de les classer par ordre alphabétique ! Peux-tu aider le Père Noël ?
+
+
+```
+rollCall(["yzneT","ydissaC","enimA"])
+> ["Amine","Cassidy","Tenzy"]
+
+rollCall(["rennuD","nexiV","recnarP","temoC","neztilB","recnaD","diduC","rehsaD","hploduR"])
+> ["Blitzen","Comet","Cupid","Dancer","Dasher","Donner","Prancer","Rudolph","Vixen"]
+
+rollCall(["A","B","C"])
+> ["A","B","C"]
+```
