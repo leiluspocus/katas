@@ -12,6 +12,7 @@ C'est un petit exercice de programmation qui est souvent donné en entretien. Il
 - [🤹‍♀️ Palindrome](#palindrome)
 - [🔂 Inverser](#inverser)
 - [🧮 Tri dans un tableau](#tri)
+- [🖨️ L'imprimante folle](#imprimanteFolle)
 
 <a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
