@@ -131,7 +131,7 @@ Le Père Noël fait l'appel quotidien de ses rennes, mais l'imprimante a imprim�
 Pour prendre les présences correctement, il a besoin d'urgence d'un outil permettant d'inverser les noms des rennes et de les classer par ordre alphabétique ! Peux-tu aider le Père Noël ?
 
 
-```
+```shell
 rollCall(["yzneT","ydissaC","enimA"])
 > ["Amine","Cassidy","Tenzy"]
 
@@ -152,8 +152,8 @@ Elle doit retourner toutes les paires qui retournent une somme impaire. Les cas 
 
 Voici quelques exemples d'utilisation et ce que doit retourner la fonction.
 
-```
-// Cas d'erreurs à gérer
+```shell
+# Cas d'erreurs à gérer
 
 oddSum([], [2, 3])
 > "Error: First array is empty!"
@@ -164,16 +164,16 @@ oddSum([2, 3], [])
 oddSum([], [])
 > "Error: You should pass two arrays of numbers"
 
-// Cas 1: Petits tableaux de même taille
+# Cas 1: Petits tableaux de même taille
 
 oddSum([1, 2], [3, 5]) 
 > [2, 3], [2, 5]
 
-// Cas 2: Tableaux de taille différente
+# Cas 2: Tableaux de taille différente
 
 oddSum([9, 14, 6, 2, 11], [8, 4, 7, 20]) 
 > [9, 20], [14, 7], [11,8]
 
 oddSum([2, 4, 6, 8], [10, 12, 14])
-> null // (or whatever falsy value you prefer)
+> "Aucune paire trouvée : toutes les paires d'éléments possibles retournent une somme paire"
 ```
