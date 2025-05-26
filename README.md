@@ -13,6 +13,7 @@ C'est un petit exercice de programmation qui est souvent donné en entretien. Il
 - [🔂 Inverser](#inverser)
 - [🧮 Tri dans un tableau](#tri)
 - [🖨️ L'imprimante folle](#imprimanteFolle)
+- [🔢 Somme impaire](#sommeImpaire)
 
 <a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
@@ -139,4 +140,40 @@ rollCall(["rennuD","nexiV","recnarP","temoC","neztilB","recnaD","diduC","rehsaD"
 
 rollCall(["A","B","C"])
 > ["A","B","C"]
+```
+
+<a id="sommeImpaire"></a>
+## 🔢 Somme impaire
+[Source: Newsletter de Cassidoo du 26/05/2025](https://buttondown.com/cassidoo/archive/false-expectations-take-away-joy-sandra-bullock/)
+
+Faire une fonction `oddSum` qui prend deux tableaux en paramètre, un tableau 1 et un tableau 2.
+
+Elle doit retourner toutes les paires qui retournent une somme impaire. Les cas d'erreur doivent également être gérés.
+
+Voici quelques exemples d'utilisation et ce que doit retourner la fonction.
+
+```
+// Cas d'erreurs à gérer
+
+oddSum([], [2, 3])
+> "Error: First array is empty!"
+
+oddSum([2, 3], [])
+> "Error: Second array is empty!"
+
+oddSum([], [])
+> "Error: You should pass two arrays of numbers"
+
+// Cas 1: Petits tableaux de même taille
+
+oddSum([1, 2], [3, 5]) 
+> [2, 3], [2, 5]
+
+// Cas 2: Tableaux de taille différente
+
+oddSum([9, 14, 6, 2, 11], [8, 4, 7, 20]) 
+> [9, 20], [14, 7], [11,8]
+
+oddSum([2, 4, 6, 8], [10, 12, 14])
+> null // (or whatever falsy value you prefer)
 ```
