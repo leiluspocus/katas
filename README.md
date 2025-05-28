@@ -48,7 +48,7 @@ Exemple
 
 [Source: LeetCode](https://leetcode.com/problems/palindrome-number/) 
 
-Faites une fonction qui prend en paramètre un entier x. La fonction doit retourner `true` si x est un palindrome, `false` sinon.  
+Faites une fonction qui prend en paramètre un entier nombre. La fonction doit retourner `true` si x est un palindrome, `false` sinon.  
 
 _Exemple 1:_
 
@@ -67,6 +67,18 @@ _Exemple 3:_
 - Paramètre d'entrée: x = 10
 - Réponse: false
 - Explication: Se lit 01 de droite à gauche. Ce n'est donc pas un palindrome.
+
+```shell 
+> palindrome(121)
+> true 
+
+> palindrome(-121)
+> false
+
+> palindrome(10)
+> false
+```
+
 
 > Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/palindrome.js)
 
