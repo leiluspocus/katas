@@ -48,7 +48,9 @@ Exemple
 
 [Source: LeetCode](https://leetcode.com/problems/palindrome-number/) 
 
-Faites une fonction qui prend en paramètre un entier nombre. La fonction doit retourner `true` si x est un palindrome, `false` sinon.  
+Faites une fonction qui prend en paramètre un entier nombre. La fonction doit retourner `true` si x est un palindrome, `false` sinon. 
+
+Langage : libre
 
 _Exemple 1:_
 
@@ -68,14 +70,16 @@ _Exemple 3:_
 - Réponse: false
 - Explication: Se lit 01 de droite à gauche. Ce n'est donc pas un palindrome.
 
+Si vous choisissez Node.js, à l'exécution, ça devrait donner ceci 👇
+
 ```shell 
-> palindrome(121)
+> node palindrome(121)
 > true 
 
-> palindrome(-121)
+> node palindrome(-121)
 > false
 
-> palindrome(10)
+> node palindrome(10)
 > false
 ```
 
