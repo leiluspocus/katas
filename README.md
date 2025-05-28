@@ -42,6 +42,29 @@ Exemple
  
 > Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/majority.js)
 
+<a id="pairs-impairs"></a>
+## Pairs ou impair ?
+
+[Source: Newsletter de Cassidoo 
+](https://cassidoo.co/)
+
+Pour un tableau donné, retourner s'il y a une majorité de nombres impairs ou pairs. 
+
+Exemple
+
+```
+> majority([3,1,4,1])
+> "1"
+
+> majority([33,44,55,66,77])
+> "Majorité impairs"
+
+> majority([1,2,3,4])
+> "Pas de majorité"
+```
+ 
+> Proposition de résolution [ici](https://github.com/leiluspocus/katas/blob/main/resolutions/majority.js)
+
 
 <a id="palindrome"></a>
 ## 🤹‍♀️ Palindrome
