@@ -14,6 +14,7 @@ C'est un petit exercice de programmation qui est souvent donné en entretien. Il
 - [🧮 Tri dans un tableau](#tri)
 - [🖨️ L'imprimante folle](#imprimanteFolle)
 - [🔢 Somme impaire](#sommeImpaire)
+- [🔂 Répétitions](#repetitions)
 
 <a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
@@ -193,3 +194,23 @@ oddSum([9, 14, 6, 2, 11], [8, 4, 7, 20])
 oddSum([2, 4, 6, 8], [10, 12, 14])
 > "Aucune paire trouvée : toutes les paires d'éléments possibles retournent une somme paire"
 ```
+
+<a id="repetitions"></a>
+## 🔂 Répétitions
+[Source: Newsletter de Cassidoo du 29/12](https://buttondown.com/cassidoo/archive/the-beginning-is-the-word-and-the-end-is-silence/)
+
+
+Tu reçois une chaîne de caractères en entrées qui contient des chiffres allant de 0 à 9. Fais une fonction qui prend en paramètre cette chaîne de caractères et un nombre (entre 0 et 9) dont il faudra repérer les enchaînements dans la chaîne de caractères et remplacer par le nombre d'occurences de ce nombre.  
+
+Des exemples valent mille mots. 
+
+```shell
+> replaceRepeats('1234500362000440', 0)
+> 1234523623441
+
+> replaceRepeats('000000000000', 0)
+> 12
+
+> replaceRepeats('123456789', 1)
+> 123456789
+`````
