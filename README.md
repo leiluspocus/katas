@@ -16,6 +16,8 @@ C'est un petit exercice de programmation qui est souvent donné en entretien. Il
 - [🔢 Somme impaire](#sommeImpaire)
 - [🔂 Répétitions](#repetitions)
 - [🐻 Ours affamés](#ours)
+- [✖️ Factorielle](#factorielle)
+- [📈 Hyperfactorielle](#hyperfactorielle)
 
 <a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
@@ -256,4 +258,43 @@ const bears = [
 
 averageHunger(bears) // Devrait afficher 7.2
 hungryBears(bears); // Devrait afficher Winnie, Yogi, Chicago
+```
+
+
+<a id="factorielle"></a>
+## ✖️ Factorielle
+Crée une fonction `factorial` qui prenne un entier en paramètre et retourne sa factorielle.
+
+Pour rappel, la factorielle correspond au produit des nombres entiers positifs ou inférieurs à un nombre donné. 
+
+Exemple: 8! = 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1 = 40320
+
+```javascript
+> factorial(1)
+> 1
+> factorial(8)
+> 40320
+```
+
+
+<a id="hyperfactorielle"></a>
+## 📈 Hyperfactorielle
+[Source: Newsletter de Cassidoo du 29/09/2025](https://buttondown.com/cassidoo/archive/i-recommend-the-freedom-that-comes-from-asking/)
+
+Crée une fonction `hyperfactorial` qui prend un entier en paramètre et retourne son [hyperfactorielle](http://villemin.gerard.free.fr/Wwwgvmm/Compter/HypFacto.htm#hyperfac). 
+
+
+
+```javascript
+> hyperfactorial(0)
+> 1 
+
+> hyperfactorial(2)
+> 4 // 2 * 2 * 1 
+> 
+> hyperfactorial(3)
+> 108 // 3 * 3 * 3 * 2 * 2 * 1 
+
+> hyperfactorial(7)
+> 3319766398771200000 // 7^7 * 6^6 * 5^5 * 4^4 * 3^3 * 2^2 * 1
 ```
