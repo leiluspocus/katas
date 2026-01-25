@@ -15,6 +15,7 @@ C'est un petit exercice de programmation qui est souvent donné en entretien. Il
 - [🖨️ L'imprimante folle](#imprimanteFolle)
 - [🔢 Somme impaire](#sommeImpaire)
 - [🔂 Répétitions](#repetitions)
+- [🐻 Ours affamés](#ours)
 
 <a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
@@ -214,3 +215,45 @@ Des exemples valent mille mots.
 > replaceRepeats('123456789', 1)
 > 123456789
 `````
+
+
+<a id="ours"></a>
+## 🐻 Ours affamés
+[Source: Newsletter de Cassidoo du 12/01/2025](https://buttondown.com/cassidoo/archive/the-future-is-sending-back-good-wishes-and/)
+
+
+Chaque ours est représenté par un objet Javascript avec deux propriétés : son nom, et son niveau de faim (allant de 1 à 10).
+
+Crée une fonction qui : 
+1) Calcule le niveau de faim moyen des ours présents 
+2) Extrait les ours qui ont une faim supérieure à la moyenne
+
+```javascript
+const bear = {
+	name: 'Winnie',
+	hunger: 10
+}
+
+const bears = [
+	bear,
+	{ 
+		name: 'Baloo',
+		hunger: 6
+	},
+	{ 
+		name: 'Yogi',
+		hunger: 9
+	},
+	{ 
+		name: 'Paddington',
+		hunger: 2
+	},
+	{ 
+		name: 'Chicago',
+		hunger: 9
+	}
+]
+
+averageHunger(bears) // Devrait afficher 7.2
+hungryBears(bears); // Devrait afficher Winnie, Yogi, Chicago
+```
