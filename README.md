@@ -221,7 +221,7 @@ Des exemples valent mille mots.
 
 <a id="ours"></a>
 ## 🐻 Ours affamés
-[Source: Newsletter de Cassidoo du 12/01/2025](https://buttondown.com/cassidoo/archive/the-future-is-sending-back-good-wishes-and/)
+[Source: Newsletter de Cassidoo du 12/01/2026](https://buttondown.com/cassidoo/archive/the-future-is-sending-back-good-wishes-and/)
 
 
 Chaque ours est représenté par un objet Javascript avec deux propriétés : son nom, et son niveau de faim (allant de 1 à 10).
