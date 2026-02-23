@@ -18,6 +18,7 @@ C'est un petit exercice de programmation qui est souvent donné en entretien. Il
 - [🐻 Ours affamés](#ours)
 - [✖️ Factorielle](#factorielle)
 - [📈 Hyperfactorielle](#hyperfactorielle)
+- [🤑 Qui a le plus gros salaire ?](#grosSalaire)
 
 <a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
@@ -297,4 +298,69 @@ Crée une fonction `hyperfactorial` qui prend un entier en paramètre et retourn
 
 > hyperfactorial(7)
 > 3319766398771200000 // 7^7 * 6^6 * 5^5 * 4^4 * 3^3 * 2^2 * 1
+```
+
+
+<a id="grosSalaire"></a>
+## 🤑 Qui a le plus gros salaire ?
+
+A partir de ce tableau de personnes, détermine quelle personne a le plus gros salaire.
+
+```javascript
+const people = [
+	{ 
+		name: 'Alice',
+		salary: 23
+	},
+	{ 
+		name: 'Bob',
+		salary: 30
+	},
+	{ 
+		name: 'Charlie',
+		salary: 29
+	},
+	{ 
+		name: 'David',
+		salary: 20
+	},
+	{ 
+		name: 'Eva',
+		salary: 35
+	},
+	{ 
+		name: 'Frank',
+		salary: 30
+	},
+]
+
+highestSalary(people) // Devrait afficher "Eva"
+
+const alumnis = [
+	{ 
+		name: 'Alice',
+		salary: 23
+	},
+	{ 
+		name: 'Bob',
+		salary: 30
+	},
+	{ 
+		name: 'Charlie',
+		salary: 29
+	},
+	{ 
+		name: 'David',
+		salary: 20
+	},
+	{ 
+		name: 'Eva',
+		salary: 12
+	},
+	{ 
+		name: 'Frank',
+		salary: 30
+	},
+]
+highestSalary(alumnis); // Devrait afficher "Bob, Frank"
 ```
