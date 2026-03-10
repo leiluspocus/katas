@@ -1,0 +1,14 @@
+{
+  "name": "katas",
+  "version": "1.0.0",
+  "description": "Katas de programmation en français",
+  "type": "module",
+  "scripts": {
+    "run:ts": "tsx",
+    "start": "tsx"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
