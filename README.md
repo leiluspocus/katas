@@ -19,6 +19,7 @@ C'est un petit exercice de programmation qui est souvent donné en entretien. Il
 - [✖️ Factorielle](#factorielle)
 - [📈 Hyperfactorielle](#hyperfactorielle)
 - [🤑 Qui a le plus gros salaire ?](#grosSalaire)
+- [⚖️ Parenthèses](#parentheses)
 
 <a id="majorite-pairs-impairs"></a>
 ## ♣️ Majorité, pairs ou impair ?
@@ -363,4 +364,21 @@ const alumnis = [
 	},
 ]
 highestSalary(alumnis); // Devrait afficher "Bob, Frank"
+```
+
+<a id="parentheses"></a>
+## ⚖️ Parenthèses
+[Source: Codewars](https://www.codewars.com/kata/6411b91a5e71b915d237332d)
+
+Ecris une fonction qui prend en paramètre une string qui contient des parenthèses, cette fonction doit vérifier le bon équilibre entre les parenthèses ouvrantes et les parenthèses fermantes, et le bon ordre.
+
+```javascript
+> parenthesis("()")
+true             
+> parenthesis(")(()))")
+false
+> parenthesis("(")
+false 
+> parenthesis("(())((()())())")
+true   
 ```
