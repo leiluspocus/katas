@@ -18,9 +18,9 @@ function isMirror(left : TreeNode | null, right : TreeNode | null) {
         return false;
     }
     if ( left.val === right.val ) {
-        return true;
+        return isMirror(left.left, right.right) && isMirror(left.right, right.left);
     }
-    return isMirror(left.left, right.right) && isMirror(left.right, right.left);
+    return false;
 }
 
 function isSymmetric(root: TreeNode | null): boolean {
@@ -33,4 +33,8 @@ function isSymmetric(root: TreeNode | null): boolean {
 // [1,2,2,3,4,4,3] 
 console.log(isSymmetric(new TreeNode(1, new TreeNode(2, new TreeNode(3), new TreeNode(4)), new TreeNode(2, new TreeNode(4), new TreeNode(3)))))
 
+// [1, 2, 3]
 console.log(isSymmetric(new TreeNode(1, new TreeNode(2), new TreeNode(3)))); // false
+
+// [1, 2, 3, 2, null,null,3]
+console.log(isSymmetric(new TreeNode(1, new TreeNode(2, null, new TreeNode(3)), new TreeNode(2, null, new TreeNode(3))))); // false
