@@ -1,26 +1,5 @@
-import { ListNode } from "./ListNode";
-
-function displayList(head: ListNode | null) {
-    if (head === null) {
-        console.log("List is empty (head = null)");
-        return;
-    }
-
-    let cursor: ListNode | null = head;
-    let index = 0;
-    const chain: string[] = [];
-
-    while (cursor !== null) {
-        const nextValue = cursor.next ? cursor.next.val : null;
-        // console.log(`[${index}] val=${cursor.val} -> next=${nextValue}`);
-        chain.push(String(cursor.val));
-        cursor = cursor.next;
-        index++;
-    }
-
-    console.log(`chain: ${chain.join(" -> ")} -> null`);
-}
-
+import { ListNode, displayList } from "./ListNode";
+ 
 /**
  * @see https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/
  * @param head 
