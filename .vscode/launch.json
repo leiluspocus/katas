@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Attach Node 9229",
+        "type": "node",
+        "request": "attach",
+        "port": 9229,
+        "address": "127.0.0.1",
+        "restart": false,
+        "skipFiles": ["<node_internals>/**"]
+      }
+    ]
+  }
